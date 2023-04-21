@@ -1,0 +1,778 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'it' Physical Memory: 16337 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/NativeGame
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+49331
+Successfully changed project path to: C:/NativeGame
+C:/NativeGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12384] Host "[IP] 192.168.1.111 [Port] 0 [Flags] 2 [Guid] 2001627563 [EditorId] 2001627563 [Version] 1048832 [Id] WindowsEditor(7,SimonePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12384] Host "[IP] 192.168.1.111 [Port] 0 [Flags] 2 [Guid] 2001627563 [EditorId] 2001627563 [Version] 1048832 [Id] WindowsEditor(7,SimonePC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 114.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/NativeGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006347 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 98.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.793 seconds
+Domain Reload Profiling:
+	ReloadAssembly (794ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (573ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007410 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\NativeGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\NativeGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00025] in C:\NativeGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:22 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\NativeGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\NativeGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\NativeGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0057d] in C:\NativeGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00012] in C:\NativeGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00044] in C:\NativeGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x00037] in C:\NativeGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0003f] in C:\NativeGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x0000d] in C:\NativeGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.030 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2031ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1730ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1170ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (994ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (88.1 KB). Loaded Objects now: 3779.
+Memory consumption went from 130.0 MB to 129.9 MB.
+Total: 14.918100 ms (FindLiveObjects: 0.335100 ms CreateObjectMapping: 0.088500 ms MarkObjects: 14.367900 ms  DeleteObjects: 0.125000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 924.746725 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_3e16fde3-c86b-45fb-909e-541797093132.asset
+  artifactKey: Guid(95a8bfcfcdda565408e2203a15b069d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_3e16fde3-c86b-45fb-909e-541797093132.asset using Guid(95a8bfcfcdda565408e2203a15b069d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9221762a01ab17a6c409c4b9aef89ae1') in 0.088271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.575019 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_f6dd1080-7704-4500-a40a-7e4180bfea7d.asset
+  artifactKey: Guid(de4a33631dbca434f916aa5c97d3785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_f6dd1080-7704-4500-a40a-7e4180bfea7d.asset using Guid(de4a33631dbca434f916aa5c97d3785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba80a33c3637692ca8cf5fcc6dfe46fa') in 0.018204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.639572 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_c62b34a6-e59e-4d65-a819-12570a400802.asset
+  artifactKey: Guid(90d7c9b9243ffe74aa5f064c6cae331c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_c62b34a6-e59e-4d65-a819-12570a400802.asset using Guid(90d7c9b9243ffe74aa5f064c6cae331c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3485973bf7ecf32ec9e92707a780868b') in 0.017673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.561362 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_bc2f39bb-1a74-4c6e-afb0-6e3e778e805f.asset
+  artifactKey: Guid(2d683052d6457e242b4f7675c4f47980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_bc2f39bb-1a74-4c6e-afb0-6e3e778e805f.asset using Guid(2d683052d6457e242b4f7675c4f47980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759386cf36a6095ef2eb0fa242fd2c70') in 0.017748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.328299 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_3a94abe3-5859-42bc-88ed-aa52a1e1469a.asset
+  artifactKey: Guid(3f8be53bff4aed9449b61d328e8ba197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_3a94abe3-5859-42bc-88ed-aa52a1e1469a.asset using Guid(3f8be53bff4aed9449b61d328e8ba197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22319e65abdb41c106d4b8da1854ecb') in 0.017398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.899397 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_70fc9dd8-76b8-424c-8e4c-4854d7d45e03.asset
+  artifactKey: Guid(3c8790539d5659f4bb4df886ba6d8b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_70fc9dd8-76b8-424c-8e4c-4854d7d45e03.asset using Guid(3c8790539d5659f4bb4df886ba6d8b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74437db082726d5f470cfe24f8a352b2') in 0.019795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.328379 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_a84ecd62-bbf2-4ce0-9ea7-a7f1c093fdfd.asset
+  artifactKey: Guid(f71e1bf92b5020347ac09956f90d54ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_a84ecd62-bbf2-4ce0-9ea7-a7f1c093fdfd.asset using Guid(f71e1bf92b5020347ac09956f90d54ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8e04ff04ecc29efbbc90aa212d27b5') in 0.017739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.298790 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_2214677f-404a-4fdd-931d-e4f2cd5123b1.asset
+  artifactKey: Guid(7fb08e8e540bbec47b6cd6a8a7a82f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_2214677f-404a-4fdd-931d-e4f2cd5123b1.asset using Guid(7fb08e8e540bbec47b6cd6a8a7a82f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fd56240b0a4f80d9e2a3c9f8f2b543') in 0.019148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.915728 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_7e2ab5a7-91fa-4d5b-b978-a970b11f813b.asset
+  artifactKey: Guid(65141b64bf1b7ca4eae9660c3578f22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_7e2ab5a7-91fa-4d5b-b978-a970b11f813b.asset using Guid(65141b64bf1b7ca4eae9660c3578f22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5218de03ab3f00d2715302dcf8b971') in 0.019941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.509333 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_ea04e751-d731-46ac-bcaa-2affa7bb73a3.asset
+  artifactKey: Guid(4b6bf1f0844356144a5d2a69482865b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_ea04e751-d731-46ac-bcaa-2affa7bb73a3.asset using Guid(4b6bf1f0844356144a5d2a69482865b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cd7e2f21d7852742f9a7a4462ba22a') in 0.017838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.861039 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_31c3d045-38db-4dba-ae64-b9616f372fbf.asset
+  artifactKey: Guid(5c1db309e3053ef4cbdf908c57af2165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_31c3d045-38db-4dba-ae64-b9616f372fbf.asset using Guid(5c1db309e3053ef4cbdf908c57af2165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf7c072da6f62348b14167ff483f849') in 0.016725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.441863 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_f7c11da7-7984-4d13-b014-1440278c1c0a.asset
+  artifactKey: Guid(ec79e04a8883c1d4089b1cb2a8f5e202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_f7c11da7-7984-4d13-b014-1440278c1c0a.asset using Guid(ec79e04a8883c1d4089b1cb2a8f5e202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548e04e0a46e670e270c85b3a363d628') in 0.017580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.451101 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_e83d5acc-8478-4155-8327-b6a657c34394.asset
+  artifactKey: Guid(af88d4f62e73e1040b8803f77ab78fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_e83d5acc-8478-4155-8327-b6a657c34394.asset using Guid(af88d4f62e73e1040b8803f77ab78fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9ce5c4236175e3c99e45bd6af4b0dd') in 0.016680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.553929 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_28f77c27-e221-438e-b553-59c8df1f1865.asset
+  artifactKey: Guid(7f0799b171004ea4689393c074d1858b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_28f77c27-e221-438e-b553-59c8df1f1865.asset using Guid(7f0799b171004ea4689393c074d1858b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a36e4911ba0f9e711e5e0e97bdf905') in 0.017128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.218830 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_3db075be-37e6-4316-bf53-8d3ee3ed5e78.asset
+  artifactKey: Guid(bda5ac253e7334049b2c278786e2a4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_3db075be-37e6-4316-bf53-8d3ee3ed5e78.asset using Guid(bda5ac253e7334049b2c278786e2a4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0effa1ce868500fc3b67e5978d8b089') in 0.017487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.299145 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_71929e60-1040-4087-893a-eac7d67d5f5c.asset
+  artifactKey: Guid(c5dc59236b5eeb247ac16247d2ad556a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_71929e60-1040-4087-893a-eac7d67d5f5c.asset using Guid(c5dc59236b5eeb247ac16247d2ad556a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b562a05b99ecf08e404d8b58a7dd4dee') in 0.017966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.701480 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_a23be5e2-3783-43cf-aab6-937ce17a4041.asset
+  artifactKey: Guid(5f7dc9dc20a035d42b6235ff76d42201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/TerrainData_a23be5e2-3783-43cf-aab6-937ce17a4041.asset using Guid(5f7dc9dc20a035d42b6235ff76d42201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f1543d33cbdb7af366951d45e517f7') in 0.017001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.507577 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers
+  artifactKey: Guid(b6906dfbdfcc7984bbaf304cb246f4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers using Guid(b6906dfbdfcc7984bbaf304cb246f4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e6a5b1fe0dffbb7c95c9e38e75bd0d') in 0.006746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.563097 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/FTT-F Demo.unity
+  artifactKey: Guid(e2afd466904318e4ab524401078467a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/FTT-F Demo.unity using Guid(e2afd466904318e4ab524401078467a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7bacf154faf4683f91ea72481c9759') in 0.007521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.314602 seconds.
+  path: Assets/All File/Scenes/Terrain test.unity
+  artifactKey: Guid(992a8e5368042e447ba34091bf2525d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All File/Scenes/Terrain test.unity using Guid(992a8e5368042e447ba34091bf2525d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb22390554ab055072cbb714d9cf77f') in 0.006995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.303864 seconds.
+  path: Assets/All File/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All File/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8511f2054e7daf50d9d5f2c8ef22d89c') in 0.119895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/All File/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All File/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1185aa0bd34cbbc890a06ad02d2740') in 0.063679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.681434 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Cliff_001 2K.png
+  artifactKey: Guid(93c63f62e88a872409921df7acdb5a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Cliff_001 2K.png using Guid(93c63f62e88a872409921df7acdb5a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed70865c12499563edbb719017afe744') in 0.031437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT ForestGround_001 2K.png
+  artifactKey: Guid(c001fc0c195f3974fb817b2f995d54c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT ForestGround_001 2K.png using Guid(c001fc0c195f3974fb817b2f995d54c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edc5060a41b1020e0f12c10d636e5ec') in 0.015565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Grass_002 Dirt_001 2K.png
+  artifactKey: Guid(179e0c2aaf5171543a52e98d8e15360f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Grass_002 Dirt_001 2K.png using Guid(179e0c2aaf5171543a52e98d8e15360f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22afa36f1c7c9e001dd56f18814a7440') in 0.015543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Grass_002 Grass_001b 2K.png
+  artifactKey: Guid(6b8935af058f8974c8ce153894c01472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Grass_002 Grass_001b 2K.png using Guid(6b8935af058f8974c8ce153894c01472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21690c2f5e58c3fd07b9f726044f9a29') in 0.072000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010094 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Path_001 ForestGround_001 2K.png
+  artifactKey: Guid(5fc895f5044dd9f46a5ec9e4725cf3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Path_001 ForestGround_001 2K.png using Guid(5fc895f5044dd9f46a5ec9e4725cf3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9370a9621794c40b143b9296d718ecfb') in 0.017164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Grass_002 Grass_001a 2K.png
+  artifactKey: Guid(59e11b4d76877334080d7b2dfec3f51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Grass_002 Grass_001a 2K.png using Guid(59e11b4d76877334080d7b2dfec3f51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3366debe2f644b23bdca0be58f8b5d4b') in 0.035453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT ForestGround_001 Grass_002 2K.png
+  artifactKey: Guid(55a38b21135b1944eb3cd4020b8a3b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT ForestGround_001 Grass_002 2K.png using Guid(55a38b21135b1944eb3cd4020b8a3b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de63e7586cb338b7afe028ff72e0885e') in 0.017801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Path_001 Abandoned_004 2K.png
+  artifactKey: Guid(29bb65d122b2c794bb3cdcc3c9da019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Path_001 Abandoned_004 2K.png using Guid(29bb65d122b2c794bb3cdcc3c9da019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a729a0f8c5d1b1fc287a909c2c4386') in 0.016992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Rocks_001 2K.png
+  artifactKey: Guid(90fc01534d944d74f9d77554559ce7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution/3DH FTT Rocks_001 2K.png using Guid(90fc01534d944d74f9d77554559ce7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6743ccef36be69c91e5bfbe88b9b84ba') in 0.020471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.284485 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Cliff_001 4K.terrainlayer
+  artifactKey: Guid(af62f0aef08bceb4298446c1387ac4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Cliff_001 4K.terrainlayer using Guid(af62f0aef08bceb4298446c1387ac4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2740e8f52169f067af6a39a16d3bc1ed') in 0.035895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Dirt_002a 1K.terrainlayer
+  artifactKey: Guid(646970c5a66ab4445951c50291d1eb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Dirt_002a 1K.terrainlayer using Guid(646970c5a66ab4445951c50291d1eb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaebe13edebcf5e6ca7b3f0aa8f1394') in 0.014271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Grass_002 Grass_001a 2K.terrainlayer
+  artifactKey: Guid(07c9ca18486f898439edaefaba690060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Grass_002 Grass_001a 2K.terrainlayer using Guid(07c9ca18486f898439edaefaba690060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01295ffe4dad067bf2788cb3a2068d81') in 0.015554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Rocks_001 2K.terrainlayer
+  artifactKey: Guid(6d443e1e2285fb84c8b69efaff7876a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Rocks_001 2K.terrainlayer using Guid(6d443e1e2285fb84c8b69efaff7876a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2a47233bb4d936440799f6090b2d7b') in 0.014876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Path_001 ForestGround_001 2K.terrainlayer
+  artifactKey: Guid(c1bf98559de26154489987b189c59eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Path_001 ForestGround_001 2K.terrainlayer using Guid(c1bf98559de26154489987b189c59eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28a2451f4a32d90e6bd0a50ba819347') in 0.079109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT ForestGround_001 Grass_002 2K.terrainlayer
+  artifactKey: Guid(3f9fb6ce8d1d8f34697e42e9869e1c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT ForestGround_001 Grass_002 2K.terrainlayer using Guid(3f9fb6ce8d1d8f34697e42e9869e1c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681f410a59bf6ea424f669c614cc9426') in 0.013757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Path_001 Abandoned_004 2K.terrainlayer
+  artifactKey: Guid(8cf7d7763ae0a5a45beec7ce335f4e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Path_001 Abandoned_004 2K.terrainlayer using Guid(8cf7d7763ae0a5a45beec7ce335f4e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6737a4b32668805c787c99485d08a94d') in 0.015718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Rocks_001_Mossy 2K.terrainlayer
+  artifactKey: Guid(c759e8d92b830eb468aaa44210082b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers/3DH FTT Rocks_001_Mossy 2K.terrainlayer using Guid(c759e8d92b830eb468aaa44210082b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83e7973735aa9807fc9c718ecb5d531') in 0.014753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.514704 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution
+  artifactKey: Guid(face3ac06f1e6564693ae0e942eae346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution using Guid(face3ac06f1e6564693ae0e942eae346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac26fcbb12edfc22b6e0c49fa67b6c6') in 0.006724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042839 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Cliff_001 1K.png
+  artifactKey: Guid(02f172ba43ed44741a8b3bd602b1a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Cliff_001 1K.png using Guid(02f172ba43ed44741a8b3bd602b1a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7da4fee2aeafd9641b3525a9bca1fbb') in 0.015958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Grass_002 Grass_001a 1K.png
+  artifactKey: Guid(fb7a67e29d5a64147b5cb3ee6cae2210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Grass_002 Grass_001a 1K.png using Guid(fb7a67e29d5a64147b5cb3ee6cae2210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b65ce255f6b3087cbadfdadcc42b1f') in 0.073785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 Sand_001 1K.png
+  artifactKey: Guid(049faeb2cfb53824f99ad440b0884816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 Sand_001 1K.png using Guid(049faeb2cfb53824f99ad440b0884816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c06dfa6cc00bfcbf77fb24a66f27a5b') in 0.016711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Rocks_001 1K.png
+  artifactKey: Guid(a4368b8ffd49f9246964ebbda9f0bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Rocks_001 1K.png using Guid(a4368b8ffd49f9246964ebbda9f0bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9277671fea0c4aa602060b58d78a287e') in 0.017847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 Abandoned_004 1K.png
+  artifactKey: Guid(c5f895b6ca1a7ad4c85b14534bf254ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 Abandoned_004 1K.png using Guid(c5f895b6ca1a7ad4c85b14534bf254ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788ed98a42e461b4e5451302c98ee230') in 0.017953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 ForestGround_001 1K.png
+  artifactKey: Guid(5679d41979997c2489dc93c283f62505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 ForestGround_001 1K.png using Guid(5679d41979997c2489dc93c283f62505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd360eeb7d3f4769091df28807e0572e0') in 0.016466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.535627 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/Grass.mat
+  artifactKey: Guid(d63dd5689ba7132419940236892cf4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/Grass.mat using Guid(d63dd5689ba7132419940236892cf4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f02ccf63181bc1b023284b1ef6a3594') in 0.276946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.769409 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 1K.png
+  artifactKey: Guid(328744a432075d64eb27996e4ff7c550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Path_001 1K.png using Guid(328744a432075d64eb27996e4ff7c550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e83fbaad9f803e901dd8e56ec33b3c') in 0.091118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.636126 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Grass_002 Grass_001a 1K.png
+  artifactKey: Guid(fb7a67e29d5a64147b5cb3ee6cae2210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution/3DH FTT Grass_002 Grass_001a 1K.png using Guid(fb7a67e29d5a64147b5cb3ee6cae2210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50adf5633e076048682f71b66b1e8060') in 0.021582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.188694 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(99c88383b22e1f24aac624eb0713315f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(99c88383b22e1f24aac624eb0713315f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0af93d600cef3038e01409454123d8') in 0.011905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.337035 seconds.
+  path: Assets/ADG_Textures/Demo
+  artifactKey: Guid(9c09176f032ecf146a1803fdfbeb1c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/Demo using Guid(9c09176f032ecf146a1803fdfbeb1c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338fc2ea7a0d54d46a287061cfdc9677') in 0.002415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.593836 seconds.
+  path: Assets/ADG_Textures/ground_vol1
+  artifactKey: Guid(feb862146f8ee684c998cb438859dafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1 using Guid(feb862146f8ee684c998cb438859dafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db31628d447e251e4e0cd1b49dd7992') in 0.006555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.904227 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground1
+  artifactKey: Guid(65ed503bf49a7e64a80452a542b64e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground1 using Guid(65ed503bf49a7e64a80452a542b64e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59629c0706021362eb9e97b7944dc97f') in 0.006208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048318 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground1/ground1.mat
+  artifactKey: Guid(2ad85dfe2430c9944a67aabf28740c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground1/ground1.mat using Guid(2ad85dfe2430c9944a67aabf28740c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afe9b65bd0b076d5faec14d53d0fd66') in 0.332886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.681062 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground2
+  artifactKey: Guid(568f9eb5b58991e4f8d06973df6e539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground2 using Guid(568f9eb5b58991e4f8d06973df6e539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0ed4f0ef24cdd64b998bbe064f82d2') in 0.006354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044075 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground2/ground2.mat
+  artifactKey: Guid(88d4b65b6d484a1459f780db4b3edd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground2/ground2.mat using Guid(88d4b65b6d484a1459f780db4b3edd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcee520ecb407fa9be373408befc703') in 0.016900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground2/ground2_Height.tga
+  artifactKey: Guid(cb74fa1f447a9ed4baf1d1bce2326844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground2/ground2_Height.tga using Guid(cb74fa1f447a9ed4baf1d1bce2326844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8766c3a583877efc0152730d23a85ff') in 0.017025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground2/ground2_Normal.tga
+  artifactKey: Guid(f3b2a952874cda74583658ed78a08ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground2/ground2_Normal.tga using Guid(f3b2a952874cda74583658ed78a08ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b4a61d41df3e6dacaa693c2cd5b381') in 0.019624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.184018 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground3
+  artifactKey: Guid(b22288eee5508544f802000ed94bcf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground3 using Guid(b22288eee5508544f802000ed94bcf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550b9f348dbb3f46167190b0304a4e79') in 0.006272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038639 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground3/ground3.mat
+  artifactKey: Guid(594c9e2618b97d542bae8e47e544b7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground3/ground3.mat using Guid(594c9e2618b97d542bae8e47e544b7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f491ffa46064e2b99e46556a311efe65') in 0.016450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground3/ground3_Normal.tga
+  artifactKey: Guid(c138e91626b4607499e005102913a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground3/ground3_Normal.tga using Guid(c138e91626b4607499e005102913a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074acb2a7c4717a881758b719f8068b4') in 0.016648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.985195 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground4
+  artifactKey: Guid(9a31f8da348e3b346aff560d42e68aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground4 using Guid(9a31f8da348e3b346aff560d42e68aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047564f417971c74884e9630b9cdf6d7') in 0.008479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033275 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground4/ground4.mat
+  artifactKey: Guid(58621eb9da53bb648ab64c4982c9d407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground4/ground4.mat using Guid(58621eb9da53bb648ab64c4982c9d407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07d2d25fa3da1cc206ec006f97dc109') in 0.016172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground4/ground4_Metallic.tga
+  artifactKey: Guid(fb1c850a227a62544b63c6626cfa8ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground4/ground4_Metallic.tga using Guid(fb1c850a227a62544b63c6626cfa8ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2b70f302a11593741b980317109100') in 0.016116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.878692 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground5
+  artifactKey: Guid(d1a8b78328ed6b042878b34c4c0fd018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground5 using Guid(d1a8b78328ed6b042878b34c4c0fd018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418771c0559f43e1a7dd0538c76923b8') in 0.007489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.948464 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground5/ground5.mat
+  artifactKey: Guid(255436391f9524147a37a599920b6a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground5/ground5.mat using Guid(255436391f9524147a37a599920b6a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a6134a84bff58a502747049f776892') in 0.034059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground5/ground5_Normal.tga
+  artifactKey: Guid(219386670151bc542a3b2fd69819e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground5/ground5_Normal.tga using Guid(219386670151bc542a3b2fd69819e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d566b8965f56ef5bd6b3976046cb48') in 0.020267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.937650 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground7
+  artifactKey: Guid(5cb94e6cdcd5e824cb221bc3992b1bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground7 using Guid(5cb94e6cdcd5e824cb221bc3992b1bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541daec0792dc284ada6113b2748034c') in 0.006346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046530 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground7/ground7.mat
+  artifactKey: Guid(9b2d9ffb6a28d244e8e9025b4a87f779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground7/ground7.mat using Guid(9b2d9ffb6a28d244e8e9025b4a87f779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763e754e52db888c8f43e64de983b292') in 0.023921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground7/ground7_Metallic.tga
+  artifactKey: Guid(e9d30098b0fc07a4887f73b87ad656f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground7/ground7_Metallic.tga using Guid(e9d30098b0fc07a4887f73b87ad656f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9aa2eb92a0a57ebb39223f2c2ddc868') in 0.022224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.826658 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground6
+  artifactKey: Guid(3a34bbf059f23be4cbd12e4f40ca0ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground6 using Guid(3a34bbf059f23be4cbd12e4f40ca0ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0b6c8c24a8ce317e98f0d296f2dd71') in 0.006717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054189 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground6/ground6.mat
+  artifactKey: Guid(ae29ac02d08992344b9095971167e1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground6/ground6.mat using Guid(ae29ac02d08992344b9095971167e1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00783a2587c944a0e35c951de25b917c') in 0.024645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground6/ground6_Height.tga
+  artifactKey: Guid(083decf4ef7144f4bb014384ac1044b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground6/ground6_Height.tga using Guid(083decf4ef7144f4bb014384ac1044b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c37440f65414b87ecbd4dc23f59c11a') in 0.019060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.721087 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground9
+  artifactKey: Guid(27900da124cc2b546a02af38f99bc619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground9 using Guid(27900da124cc2b546a02af38f99bc619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dc4179b6b6d4248625a188cdd06916') in 0.007108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.092423 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground9/ground9.mat
+  artifactKey: Guid(808ad643de188e240b57498ca61b98a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground9/ground9.mat using Guid(808ad643de188e240b57498ca61b98a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffec0e01a6789706531e0ce1d2637ec9') in 0.025052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground9/ground9_Normal.tga
+  artifactKey: Guid(1868fa7be7ed59c45927c480c110c8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground9/ground9_Normal.tga using Guid(1868fa7be7ed59c45927c480c110c8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92d2ddcf09eef02b18f3647cfd2a09f') in 0.036847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.401340 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground8
+  artifactKey: Guid(25aa6f5b6d827194aad921ee542af062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground8 using Guid(25aa6f5b6d827194aad921ee542af062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a35eafbd93c746fb16b268b7ae96ea7') in 0.006406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038690 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground8/ground8.mat
+  artifactKey: Guid(57208e3c02c59dc4bba6832237467e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground8/ground8.mat using Guid(57208e3c02c59dc4bba6832237467e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a0415efe1a31811ade00dcb5e103ce') in 0.024435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground8/ground8_Height.tga
+  artifactKey: Guid(197149ea2860411408a82a7da3570ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground8/ground8_Height.tga using Guid(197149ea2860411408a82a7da3570ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ed804fc82ed755ed2db2555cbe1b5f') in 0.082409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.660549 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground10
+  artifactKey: Guid(b63d32e4af1b7404d9d11d0bbdd73594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground10 using Guid(b63d32e4af1b7404d9d11d0bbdd73594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1c9ac461665b739859b0191c60e625') in 0.007170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048251 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground10/ground10.mat
+  artifactKey: Guid(43d91cc396861f443b5574aef062e3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground10/ground10.mat using Guid(43d91cc396861f443b5574aef062e3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdbc453cc473adc43677627aad16e1c') in 0.023247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground10/ground10_Normal.tga
+  artifactKey: Guid(84794b884a1ed204f9ce92a773a3fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground10/ground10_Normal.tga using Guid(84794b884a1ed204f9ce92a773a3fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbca78e019356ca49071d5148b567159') in 0.017715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.785640 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground11
+  artifactKey: Guid(14f609cf0ab004144b2ba8f201753a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground11 using Guid(14f609cf0ab004144b2ba8f201753a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c6895e209a6164497feafd9300bffe') in 0.006476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044251 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground11/ground11.mat
+  artifactKey: Guid(0b9b69ec22bd9824dbcacaf79a566cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground11/ground11.mat using Guid(0b9b69ec22bd9824dbcacaf79a566cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c990a5afd010a06c49169de7d23e87ea') in 0.024070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground11/ground11_Height.tga
+  artifactKey: Guid(cd4707edccbd4f549a34eebe19497b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground11/ground11_Height.tga using Guid(cd4707edccbd4f549a34eebe19497b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808156626c1db0864cf4fd124bce5167') in 0.020637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.559667 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground12
+  artifactKey: Guid(9d3707838ffaa364d82cca6d1c14503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground12 using Guid(9d3707838ffaa364d82cca6d1c14503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ede8bdaaa619c0bb8560533c536019') in 0.006627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041870 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground12/ground12.mat
+  artifactKey: Guid(43f38029a9368894a9fb4dd19ce0bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground12/ground12.mat using Guid(43f38029a9368894a9fb4dd19ce0bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07d9b5572c75de3e6cd51fa00df55c1') in 0.032333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground12/ground12_Metallic.tga
+  artifactKey: Guid(a3aed34c5d04f4f43a8e671599061421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground12/ground12_Metallic.tga using Guid(a3aed34c5d04f4f43a8e671599061421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347e429f977139e087bb81b319e41db3') in 0.017277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.028475 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground13
+  artifactKey: Guid(0de6adb2730bebd4ab67bd3dd20089f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground13 using Guid(0de6adb2730bebd4ab67bd3dd20089f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666075187e1a1f80c8f71c0978e5bb9e') in 0.006462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041168 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground13/ground13.mat
+  artifactKey: Guid(2785d3e261e963c4793fc5970256592e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground13/ground13.mat using Guid(2785d3e261e963c4793fc5970256592e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2f5d2df196500b7776d443eda4bac7') in 0.028786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground13/ground13_Normal.tga
+  artifactKey: Guid(b2fb145365da39b43bb38b3d3d3db1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground13/ground13_Normal.tga using Guid(b2fb145365da39b43bb38b3d3d3db1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff25b64603e0af214637ad7b8ebf358') in 0.028312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.384954 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground14
+  artifactKey: Guid(12e514c7bcbe50f45aa7aa0d2985dddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground14 using Guid(12e514c7bcbe50f45aa7aa0d2985dddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4746daac1739ddcbbe84782e51b23b55') in 0.006280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039458 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground14/ground14.mat
+  artifactKey: Guid(3b7bee62bfdf81742a7e944ddd698742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground14/ground14.mat using Guid(3b7bee62bfdf81742a7e944ddd698742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6844682cb891f2b22e523c0366630f7d') in 0.024037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground14/ground14_Normal.tga
+  artifactKey: Guid(bb9441ad1e914614c84125c92ac95253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground14/ground14_Normal.tga using Guid(bb9441ad1e914614c84125c92ac95253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a242183b47b452bdc5e3608108c02da') in 0.023881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 486.556793 seconds.
+  path: Assets/ADG_Textures/Demo/DemoScene.unity
+  artifactKey: Guid(d77cc7480869c4141ac8adc9356f4fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/Demo/DemoScene.unity using Guid(d77cc7480869c4141ac8adc9356f4fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e58529e466a6ac74150b4fbfa9d17a') in 0.006984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8577.424378 seconds.
+  path: Assets/TerrainData_9f6f1588-4582-47e3-ad8e-f4142c0861ae.asset
+  artifactKey: Guid(3735aae39098b574b89d74dd7264593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_9f6f1588-4582-47e3-ad8e-f4142c0861ae.asset using Guid(3735aae39098b574b89d74dd7264593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1300769076ce67b1d2ce1ca5a9bfd7') in 0.378835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/TerrainData_d6d3d9df-c564-40fe-89e5-1045bd99d8ce.asset
+  artifactKey: Guid(89d25a093bfa4ef43a319bcc4a4a269f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_d6d3d9df-c564-40fe-89e5-1045bd99d8ce.asset using Guid(89d25a093bfa4ef43a319bcc4a4a269f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3f4bc758c10eeec161e828f2303686') in 0.317549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TerrainData_46f97f22-bdd7-4a4b-b435-ae488db29697.asset
+  artifactKey: Guid(e3d6d4eb2490c214aa6d489f8b188d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_46f97f22-bdd7-4a4b-b435-ae488db29697.asset using Guid(e3d6d4eb2490c214aa6d489f8b188d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c16ee9332baf4d3d40050e51ab5a67d') in 0.319911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TerrainData_63da96af-5aa6-4877-856d-3372df87f984.asset
+  artifactKey: Guid(1ad2946133f88dc459359f969a9f440c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_63da96af-5aa6-4877-856d-3372df87f984.asset using Guid(1ad2946133f88dc459359f969a9f440c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cb207ae31eb14292e13303024bcc0a') in 0.316380 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
